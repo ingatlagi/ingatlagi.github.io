@@ -55,16 +55,18 @@ body {
 /* ===== DROPDOWN ===== */
 .dropdown {
   position: relative;
+  padding-bottom: 10px; /* area aman hover */
 }
 
 .submenu {
   display: none;
   position: absolute;
-  top: 26px;
+  top: 100%;
   left: 0;
   background: rgba(0,0,0,0.85);
   list-style: none;
   min-width: 150px;
+  padding: 6px 0;
 }
 
 .submenu li a {
@@ -74,7 +76,8 @@ body {
   white-space: nowrap;
 }
 
-.dropdown:hover .submenu {
+.dropdown:hover .submenu,
+.dropdown:focus-within .submenu {
   display: block;
 }
 
