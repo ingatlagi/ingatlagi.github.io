@@ -1,9 +1,11 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* BODY */
 body {
   font-family: Georgia, "Times New Roman", serif;
   background: #000;
@@ -11,7 +13,7 @@ body {
 }
 
 /* NAVBAR */
-.nav {
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,14 +21,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(6px);
-  z-index: 10;
+  z-index: 100;
 }
 
 .logo {
-  text-decoration: none;
-  color: #fff;
   font-size: 18px;
   letter-spacing: 2px;
 }
@@ -41,9 +41,8 @@ body {
 .menu span {
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
   font-size: 14px;
-  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 /* DROPDOWN */
@@ -51,24 +50,23 @@ body {
   position: relative;
 }
 
-.dropdown-menu {
+.submenu {
   display: none;
   position: absolute;
   top: 24px;
   left: 0;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.85);
   list-style: none;
-  padding: 10px 0;
-  min-width: 120px;
+  min-width: 140px;
 }
 
-.dropdown-menu li a {
+.submenu li a {
   display: block;
-  padding: 8px 16px;
+  padding: 10px 16px;
   font-size: 13px;
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .submenu {
   display: block;
 }
 
