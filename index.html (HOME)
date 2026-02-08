@@ -2,32 +2,31 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>INGAT LAGI — catatan & cerita</title>
+  <title>INGAT LAGI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav class="navbar">
+<nav class="navbar">
   <div class="nav-container">
     <div class="logo">INGAT LAGI</div>
-
     <ul class="menu">
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Home</a></li>
 
       <li class="dropdown">
         <a href="#">Catatan ▾</a>
         <ul class="submenu">
-          <li><a href="#">Harian</a></li>
-          <li><a href="#">Cerita</a></li>
+          <li><a href="harian.html">Harian</a></li>
+          <li><a href="cerita.html">Cerita</a></li>
         </ul>
       </li>
 
       <li class="dropdown">
         <a href="#">Arsip ▾</a>
         <ul class="submenu">
-          <li><a href="#">PS1</a></li>
-          <li><a href="#">Harian PS2</a></li>
+          <li><a href="arsip.html">PS1</a></li>
+          <li><a href="arsip.html">Harian PS2</a></li>
         </ul>
       </li>
 
@@ -36,36 +35,22 @@
   </div>
 </nav>
 
-  
-<header>
-  <div class="container">
-    <h1>INGAT LAGI</h1>
-    <p class="tagline">catatan, cerita, dan opini yang ingin diingat lagi</p>
-  </div>
-</header>
-
 <main class="container">
+  <h1>INGAT LAGI</h1>
+  <p class="tagline">catatan, cerita, dan hal-hal kecil yang ingin diingat lagi.</p>
 
   <article>
     <h2>Postingan Pertama</h2>
     <span class="date">7 Februari 2026</span>
-
     <p>
       Ini bukan tulisan besar.  
-      Cuma catatan kecil tentang kenapa akhirnya aku bikin website ini.
-    </p>
-
-    <p>
-      Kadang kita cuma perlu tempat buat nulis,
+      Cuma tempat buat pulang sebentar, lalu lanjut lagi.
     </p>
   </article>
-
 </main>
 
 <footer>
-  <div class="container">
-    <p>© 2026 — ingatlagi</p>
-  </div>
+  © 2026 ingatlagi — ditulis pelan.
 </footer>
 
 </body>
